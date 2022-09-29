@@ -1,0 +1,93 @@
+
+<html>
+<head>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css">
+  <style>
+    body {background-color: powderblue;}
+    h1   {color: blue;
+          font-family: verdana;
+          font-size: 300%;}
+    form{
+      background-color: 256D85;
+    }
+    input{
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      box-sizing: border-box;
+    }
+
+    .input{
+      text-align: center;
+      display: block;
+    }
+   
+
+  </style>
+</head>
+  <body>
+      <form>
+      
+      <h1>Employee Registration Form </h1>
+    <div class="input">
+          <input type="radio" id="mr"  value="Mr">
+          <label for="mr">Mr</label>
+          <input type="radio" id="mrs"  value="Mrs">
+          <label for="mrs">Mrs.</label>
+          <input type="radio" id="ms"  value="Ms">
+          <label for="ms">Ms.</label>
+        </div>
+          <br>
+          <label for="fname">First Name</label>
+        
+          <input type="text" id="fname" name="fname" placeholder="First Name"><br>
+          <label for="lname">Last Name </label>
+          
+         
+          <input type="text" id="lname" name="lname" placeholder="Last Name"><br>
+     
+          <label for="mail_Add1">Mail Address1</label>
+     
+          <input type="text" id="" name="mail_Add1" value=""><br>
+          <label for="mail_Add2">Mail Address2</label> 
+          <input type="text" id="mail_Add2" name="mail_Add2" value=""><br>
+          <label for="city">City</label>
+          <input type="text" id="city" name="city" value=""><br>
+          <label for="state">State</label> 
+          <select name="state" id="state">
+              <option value="Gujarat">Gujarat</option>
+              <option value="Maharashtra">Maharashtra</option>
+              <option value="Rajasthann">Rajasthan</option>
+              <option value="Punjab">Punjab</option>
+          </select><br>
+          <label for="zip">Zip</label>
+          <input type="number" id="zip" name="zip" value=""><br>
+              
+          <label for="photo">Upload Photo</label> 
+          <input type="file" id="photo" name="photo"  ><br>
+              
+          <label for="email">E-Mail</label> 
+          <input type="email" id="email" name="email"  ><br>
+              
+          <label for="mobile">Mobile</label> 
+          <input type="number" id="mobile" name="mobile" placeholder="+91" ><br>
+              
+          <label>Language known</label>
+          <input type="checkbox" id="lang1" name="lang">
+          <label for="lang1">Gujarati</label> <br> 
+          <input type="checkbox" id="lang2" name="lang">
+          <label for="lang2">Hindi</label> <br>  
+          <input type="checkbox" id="lang3" name="lang">
+          <label for="lang3">English</label> <br>   
+          <input type="checkbox" id="lang4" name="lang">
+          <label for="lang4">Marathi</label> <br>
+
+          <label for="info">Additional Information</label>
+          <textarea id="info" name="Text1" cols="20" rows="4"></textarea><br><br>
+             
+          <button type="button" class="btn btn-primary">Primary</button>
+          <button type="reset" class="btn btn-primary">Reset</button>
+        </form>
+     
+  </body>
+</html>
